@@ -1,0 +1,256 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 11px;
+    background-color: #3a3e56;
+    background-color: #313651;
+    color: #47ffbb;
+    margin: 0;
+}
+
+.content-container {
+    margin: 2.25rem auto;
+    max-width: 520px;
+}
+
+section {
+    border-bottom: 1.5px inset #727689;
+    padding: 1.25rem 0;
+}
+
+section:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+section > *:first-child {
+    margin-top: 0;
+}
+
+section > *:last-child {
+    margin-bottom: 0;
+}
+
+section > *:last-child > *:last-child {
+    margin-bottom: 0;
+}
+
+section > p:first-of-type {
+    margin-top: 0;
+}
+
+section.intro {
+    background-color: #323547;
+    background-color: rgb(0 0 0 / 20%);
+    border-bottom: none;
+    border-radius: 24px;
+    margin-bottom: .75rem;
+    padding: .875rem 0;
+    text-align: center;
+}
+
+section.contact-details, section.my-hobbies {
+    padding-top: .25rem;
+}
+
+.page-title {
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.page-subtitle {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: .375rem 0 .75rem;
+}
+
+.dev-icon {
+    height: 90px;
+    display: block;
+    margin: auto;
+}
+
+.dev-slogan {
+    color: #47ffbb;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.socials {
+    font-size: 14px;
+    padding: .25rem 0;
+}
+
+h1 {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.section-title {
+    color: #aeffe1;
+    font-size: 13px;
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 1.2;
+    margin: .75rem 0;
+}
+
+th {
+    background-color: #505579;
+}
+
+td {
+    background-color: #424867;
+}
+
+ul {
+    padding-inline-start: 10px;
+}
+
+a {
+    color: #313651;
+    background-color: #47ffbb;
+    border-radius: 2px;
+    padding: 0 1px;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+    color: #47ffbb;
+    background-color: #202128;
+}
+
+
+a.active {
+    background-color: white;
+}
+
+a.active:hover {
+    color: #47ffbb;
+    background-color: #202128;
+    color: #313651;
+    background-color: white;
+    cursor: default;
+}
+
+a.social-link {
+    border: 1px solid #47ffbb;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+a.social-link:hover {
+    background-color: transparent;
+}
+
+.nav-list li {
+    margin-bottom: 3px;
+}
+
+code {
+    background-color: #202128;
+    color: #ffffff;
+    display: inline-block;
+    letter-spacing: .25px;
+    margin-bottom: .2rem;
+}
+
+.work-exp-title {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.work-exp-date {
+    margin: 0.2rem 0 0;
+}
+
+.work-exp-desc {
+    margin: .5rem 0 0;
+    padding-inline-start: 20px;
+}
+
+.work-exp-desc li {
+    margin-bottom: .375rem;
+}
+
+table {
+    margin-top: .875rem;
+}
+
+.skill-table {
+    width: 100%;
+}
+
+.skill-table tr {
+    width: 100%;
+}
+
+.skill {
+    width: 30%;
+}
+
+.skill-rating {
+    font-size: 9px;
+    width: 20%;
+}
+
+.hobby-list {
+    width: 70%;
+}
+
+.hobby-side-img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.hobby-img {
+    width: 150px;
+}
+
+.web-creator {
+    text-align: right;
+}
+
+.web-creator .icon {
+    margin-right: 1px;
+}
+
+.contact-details p {
+    margin: 1px 0;
+}
+
+p.contact-name {
+    color: #9bffda;
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #47ffbb;
+    border-radius: 12px;
+    font-size: 9.5px;
+    margin: 1.75rem 0 1.125rem;
+    padding: .5rem 0;
+}
+
+footer p {
+    margin: 1px 0;
+}
