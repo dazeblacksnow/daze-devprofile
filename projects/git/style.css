@@ -24,17 +24,19 @@
 }
 
 .git-command div {
-    background-color: #424867;
     margin-bottom: 2px;
     padding: 3px 5px 2px;
 }
 
 div.git-command-name {
     background-color: #505579;
+    background-color: rgb(79 85 114 / 90%);
     margin-right: 2px;
     width: 20%;
 }
 
 div.git-command-desc {
+    background-color: #424867;
+    background-color: rgba(73, 78, 102, 0.8);
     width: 80%;
 }

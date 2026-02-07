@@ -1,3 +1,5 @@
+@import url('utility.css');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -269,43 +271,10 @@ a.social-link:hover {
 }
 
 .nav-list li {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 
-.codeblock {
-    /* background-color: #202128;
-    border: 1px solid #47ffbb;
-    border-radius: 8px;
-    margin: 1rem 0;
-    padding: .5rem;
-    overflow-x: auto; */
 
-    background-color: #202128;
-    padding: 16px;
-    border-radius: 12px;
-    margin-bottom: 1rem;
-}
-
-.codeblock > pre:first-child {
-    margin-top: 0;
-}
-
-.codeblock > pre:last-child {
-    margin-bottom: 0;
-}
-
-.codeblock code {
-    margin-bottom: 0;
-    margin-top: -12px;
-}
-
-code {
-    background-color: #202128;
-    color: #ffffff;
-    display: inline-block;
-    letter-spacing: .25px;
-    margin-bottom: .2rem;
-}
 
 .work-exp-title {
     margin-bottom: 0;
@@ -402,26 +371,3 @@ footer p {
     margin: 1px 0;
 }
 
-.note {
-    color: #7eadeb;
-    color: #90a8ff;
-    color: #85aaff;
-    color: #8cafff;
-    font-size: 9.5px;
-    margin-bottom: 1rem;
-    margin-top: 1px;
-}   
-
-.note-inline {
-    color: #85aaff;
-    color: #8cafff;
-    font-size: 7px;
-    margin-left: 2px;
-}
-
-.mb0 {
-    margin-bottom: 0;
-}
-.mt0 {
-    margin-top: 0;
-}

@@ -1,3 +1,11 @@
+.nav-group {
+    margin-top: 1rem;
+}
+
+.nav-group-desc {
+    margin-bottom: -.125rem;
+}
+
 .color-menu-list {
     list-style-type: none;
     margin-bottom: 0;
