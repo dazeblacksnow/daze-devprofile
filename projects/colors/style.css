@@ -54,14 +54,15 @@ h3.color {
 
 .color-desc {
     color: #8d8f9d;
-    font-size: 10px;
-    margin: 2px 0 8px;
+    font-size: 9px;
+    margin: 2px 0 0;
+    word-break: break-all;
     /* text-transform: capitalize; */
 }
 
 .color-desc-translate {
-    color: #a8aab3;
-    font-size: 9px;
+    color: rgb(141 143 157 / 50%);
+    font-size: 8px;
     margin: 0;
 }
 
@@ -71,6 +72,31 @@ h3.color {
     height: 106px;
     width: 100%;
 }
+
+
+
+.top-title .color-card-title{
+    margin: 3px 0 8px;
+    padding: 0 2px;
+}
+
+.top-title .color-desc {
+    margin: 2px 0 0;
+}
+
+.top-title .color-desc-translate {
+    margin: 4px 0 0;
+}
+
+.top-title .color-shade {
+    height: 78px;
+}
+
+.no-title .color-shade {
+    height: 60px;
+}
+
+
 
 .color-shade.indigo {
     background-color: #451c6c;
@@ -191,6 +217,7 @@ h3.color {
     background-color: #cd0046;
     background-color: #c10948;
     background-color: #c50044;
+    background-color: #cc0047;
 }
 
 .color-shade.burgundy {
@@ -202,6 +229,7 @@ h3.color {
     /* background-color: #6a0f38; */
     background-color: #700c35;
     background-color: #800e3c;
+    background-color: #7d0c3a;
 }
 
 .color-shade.brown {
@@ -224,6 +252,7 @@ h3.color {
     background-color: #f861a8;
     background-color: #f85fa8;
     background-color: #f863aa;
+    background-color: #ff70b4;
 }
 
 .color-shade.pink {
@@ -231,12 +260,13 @@ h3.color {
     background-color: #fd94ce;
     background-color: #ff97d1;
     background-color: #ff9fd4;
+    background-color: #ffa2d5;
 }
 
-.color-shade.cherry-blossom {
+.color-shade.sakura {
     background-color: #fec5e5;
-    background-color: #efb7d6;
-    background-color: #f4bddc;
+    /* background-color: #efb7d6; */
+    /* background-color: #f4bddc; */
     /* background-color: #fdbde1; */
 }
 
@@ -281,7 +311,7 @@ h3.color {
 }
 
 .horizontal .color-shade {
-    height: 90px;
-    width: 90px;
+    height: 78px;
+    width: 78px;
     border-radius: 8px;
 }
