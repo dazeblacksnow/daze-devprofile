@@ -7,7 +7,14 @@ body {
     font-size: 11px;
     background-color: #3a3e56;
     background-color: #313651;
+
+    background-color: #353950;
+
+    background-color: #373b50;
+    background-color: #32364a;
+
     color: #47ffbb;
+    /* color: #28ffbb; */
     margin: 0;
 }
 
@@ -45,6 +52,11 @@ section > p:first-of-type {
 section.intro {
     background-color: #323547;
     background-color: rgb(0 0 0 / 20%);
+    background-color: rgb(32 35 53 / 40%);
+    background-color: rgb(0 0 0 / 14%);
+    background-color: #2c3040;
+    background-color: #2b2f3e;
+    background-color: rgba(41, 45, 59, 0.9);
     border-bottom: none;
     border-radius: 24px;
     margin-bottom: .75rem;
@@ -91,6 +103,7 @@ section.contact-details, section.my-hobbies {
 
 .top-nav-menu-item-separator {
     color: #47ffbb;
+    /* color: #47ffcc; */
     color: #727689;
     /* color: rgb(71 255 187 / 40%); */
 }
@@ -124,7 +137,7 @@ section.contact-details, section.my-hobbies {
 }
 
 .dev-slogan {
-    color: #47ffbb;
+    /* color: #47ffbb; */
     font-size: 11px;
     font-weight: normal;
     line-height: 1.25;
@@ -139,12 +152,16 @@ section.contact-details, section.my-hobbies {
 }
 
 h1 {
+    font-size: 23px;
     margin-bottom: 1.25rem;
+    /* margin-top: 1.125rem; */
     text-align: center;
 }
 
 .subtitle {
     color: #c3ffe9;
+    color: #afffe9;
+    color: #b1ffea;
     font-size: 15px;
     margin-bottom: .75rem;
     text-align: center;
@@ -161,7 +178,11 @@ h1 {
 
 .section-title {
     color: #aeffe1;
-    font-size: 13px;
+    color: #afffe9;
+    color: #b1ffea;
+    color: #9fffe0;
+    color: #a7ffe2;
+    font-size: 13.5px;
     margin-bottom: .75rem;
     text-align: center;
     text-transform: capitalize;
@@ -169,15 +190,27 @@ h1 {
 
 p {
     line-height: 1.2;
+    /* line-height: 1.25; */
     margin: .75rem 0;
 }
 
 th {
     background-color: #505579;
+    background-color: #535a7a;
+    background-color: #515876;
+
+    background-color: #494e66;
+    background-color: #4d526a;
+    background-color: #525770;
+    background-color: #50556f;
+    background-color: #4f5572;
 }
 
 td {
     background-color: #424867;
+    background-color: #424760;
+    background-color: #42475f;
+    background-color: rgba(73, 78, 102, 0.8);
 }
 
 ul {
@@ -187,6 +220,8 @@ ul {
 a {
     color: #313651;
     background-color: #47ffbb;
+    /* background-color: #28ffbb; */
+    /* background-color: #47ffcc; */
     border-radius: 2px;
     padding: 0 1px;
     text-decoration: none;
@@ -195,6 +230,8 @@ a {
 
 a:hover {
     color: #47ffbb;
+    /* color: #28ffbb; */
+    /* color: #47ffcc; */
     background-color: #202128;
 }
 
@@ -216,12 +253,19 @@ a.active:hover {
 
 a.social-link {
     border: 1px solid #47ffbb;
+    border: 1px solid #47ffbb;
+    border: 1px solid #28ffbb;
+    /* border: 1px solid #47ffcc; */
     border-radius: 5px;
     padding: 1px;
+    /* background-color: transparent;
+    color: #47ffbb; */
 }
 
 a.social-link:hover {
     background-color: transparent;
+    /* background-color: #47ffbb;
+    color: #272b40; */
 }
 
 .nav-list li {
@@ -345,6 +389,9 @@ footer {
     flex-direction: column;
     align-items: center;
     border: 1px solid #47ffbb;
+    border: 1px solid #47ffcc;
+    border: 2px solid #727689;
+    border: 2px solid rgba(114, 118, 137, 0.85);
     border-radius: 12px;
     font-size: 9.5px;
     margin: 1.75rem 0 1.125rem;

@@ -1,0 +1,40 @@
+.git-help {
+    display: flex;
+}
+
+.git-help-usage {
+    margin-right: 2px;
+    width: 15%;
+}
+
+.git-help-command-list {
+    width: 85%;
+}
+
+.git-command-group {
+    margin-bottom: 1.5rem;
+}
+
+.git-command {
+    display: flex;
+}
+
+.git-command p, .git-command ul {
+    margin: 0;
+}
+
+.git-command div {
+    background-color: #424867;
+    margin-bottom: 2px;
+    padding: 3px 5px 2px;
+}
+
+div.git-command-name {
+    background-color: #505579;
+    margin-right: 2px;
+    width: 20%;
+}
+
+div.git-command-desc {
+    width: 80%;
+}
