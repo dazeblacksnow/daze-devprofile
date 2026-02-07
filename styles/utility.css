@@ -1,3 +1,7 @@
+pre {
+    white-space: pre-line;
+}
+
 .codeblock {
     /* background-color: #202128;
     border: 1px solid #47ffbb;

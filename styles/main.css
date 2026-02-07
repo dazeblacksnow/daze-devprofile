@@ -315,26 +315,11 @@ table {
     width: 20%;
 }
 
-.hobby-list {
-    width: 70%;
-}
 
-.hobby-side-img {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-.hobby-img {
-    width: 150px;
-}
-
-.web-creator {
-    text-align: right;
-}
-
-.web-creator .icon {
-    margin-right: 1px;
+/* ********** Contact Details Section ********** */
+.contact-details {
+    border-bottom: none;
+    padding-bottom: 1.5rem;
 }
 
 .contact-details p {
@@ -343,16 +328,79 @@ table {
 
 p.contact-name {
     color: #9bffda;
+    color: #a7ffe2;
     font-size: 1.15em;
     font-weight: bold;
     margin-bottom: .5rem;
     margin-top: 0;
 }
 
-pre {
-    white-space: pre-line;
+section.cute-surprise {
+    /* background-color: #47ffbb; */
+    /* border: 2px solid #47ffbb; */
+    border-radius: 20px;
+    border-radius: 50px;
+    /* border-radius: 70px; */
+    cursor: grab;
+    margin: .125rem 0 1.875rem;
+    padding-top: 0;
+    /* padding: 16px !important; */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 
+.cute-surprise .codeblock {
+    border-radius: 60px;
+    padding-bottom: 24px;
+    transition: all 0.3s ease-in-out;
+    /* background-color: #252836; */
+}
+
+.cute-surprise code {
+    /* line-height: 1.25; */
+    transition: all 0.3s ease-in-out;
+    /* background-color: #252836; */
+}
+
+.cute-surprise:hover {
+    background-color: #47ffbb;
+    background-image: linear-gradient(315deg, #47ffbb, #a7ffe2);
+    /* border: 2px solid #a7ffe2; */
+}
+
+.cute-surprise:hover .codeblock {
+    border-radius: 80px;
+}
+
+.cute-surprise:hover .codeblock, .cute-surprise:hover code {
+    background-color: #252834;
+    /* background-color: #21242f; */
+    /* background-color: #20222c; */
+}
+
+.cute-surprise:hover .littlekitty {
+    color: #a7ffe2;
+}
+
+.cute-surprise:hover .littledaze {
+    letter-spacing: 2px;
+    opacity: .92;
+    /* color: #47ffbb; */
+    /* opacity: 1; */
+}
+
+.cute-surprise .littlekitty {
+    color: #47ffbb;
+}
+
+.littledaze {
+    opacity: .7;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* ********** Footer Section ********** */
 footer {
     display: flex;
     flex-direction: column;
@@ -371,3 +419,6 @@ footer p {
     margin: 1px 0;
 }
 
+.web-creator .icon {
+    margin-right: 1px;
+}
