@@ -101,7 +101,8 @@ section.contact-details, section.my-hobbies {
     margin: 0;
 }
 
-.page-subtitle {
+.role-title {
+    color: #aeffe1;
     display: block;
     font-size: 13px;
     font-weight: bold;
@@ -114,11 +115,20 @@ section.contact-details, section.my-hobbies {
     margin: auto;
 }
 
+.dev-slogan-box {
+    border: 2px solid rgb(71 255 187 / 50%);
+    border-radius: 12px;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 6px 16px;
+}
+
 .dev-slogan {
     color: #47ffbb;
     font-size: 11px;
     font-weight: normal;
     line-height: 1.25;
+    margin: 0;
     text-align: center;
     text-transform: capitalize;
 }
