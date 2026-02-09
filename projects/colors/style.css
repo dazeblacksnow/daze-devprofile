@@ -6,6 +6,23 @@
     margin-bottom: -.125rem;
 }
 
+.subtitle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    margin: .75rem 0;
+}
+
+.subtitle-wrapper .subtitle {
+    margin: 0;
+}
+
+.flag-inline {
+    font-size: 140%;
+}
+
 .color-menu-list {
     list-style-type: none;
     margin-bottom: 0;
@@ -24,10 +41,12 @@
     gap: 18px;
     justify-content: center;
     margin: 20px 0 2rem !important;
+    margin: 1rem 0 2rem !important;
 }
 
 .color-card {
     background-color: #e9eaf3;
+    /* background-color: #eff0f6; */
     border-radius: 12px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 5px;
@@ -45,23 +64,26 @@
     justify-content: space-between;
 }
 
-.color-card-title {
+.color-card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 3px 0 5px;
-    padding-left: 2px;
+    padding: 0 4px;
 }
 
-h3.color {
+.color-title {
     color: #363842;
+    color: #474747;
     font-size: 11px;
+    line-height: 1.2;
     margin: 0;
     text-transform: capitalize;
 }
 
 .color-desc {
     color: #8d8f9d;
+    color: #a7a9b2;
     font-size: 9px;
     margin: 2px 0 0;
     word-break: break-all;
@@ -74,139 +96,170 @@ h3.color {
     margin: 0;
 }
 
-.color-shade {
+.color-swatch {
     background-color: #d2d6eb;
     border-radius: 8px;
     height: 106px;
     width: 100%;
 }
 
-
-
-.top-title .color-card-title{
+/* ********** Vertical Card - Text Top & Bottom ********** */
+.text-top .color-card-body {
     margin: 3px 0 8px;
-    padding: 0 2px;
 }
 
-.top-title .color-desc {
+.text-bottom .color-card {
+    flex-direction: column-reverse;
+}
+
+.text-bottom .color-card-body {
+    margin: 8px 0 5px;
+}
+
+.text-top .color-title {
+    font-size: 11.5px;
+}
+
+.text-top .color-desc {
     margin: 2px 0 0;
 }
 
-.top-title .color-desc-translate {
-    margin: 4px 0 0;
+.text-top .color-desc-translate, 
+.text-bottom .color-desc-translate {
+    margin: 6px 0 0;
 }
 
-.top-title .color-shade {
+.text-top .color-swatch, 
+.text-bottom .color-swatch  {
     height: 78px;
 }
 
-.no-title .color-shade {
+/* ********** Vertical Card - Text Bottom ********** */
+
+
+
+/* ********** Vertical Card - Text Top & Bottom, No Title ********** */
+.text-top.no-title .color-card-body {
+    margin: 3px 0 6px;
+} 
+
+.text-top.no-title .color-desc-translate, 
+.text-bottom.no-title .color-desc-translate {
+    margin: 0;
+}
+
+.text-bottom.no-title .color-card-body {
+    margin: 6px 0 3px;
+}
+
+.no-title .color-swatch {
     height: 60px;
 }
 
-
-
-.color-shade.indigo {
+/* ********** Color Swatches ********** */
+.color-swatch.deep-indigo {
     background-color: #451c6c;
 }
 
-.color-shade.rebecca-purple {
+.color-swatch.rebecca-purple {
     background-color: #663399;
 }
 
-.color-shade.medium-purple {
+.color-swatch.medium-purple {
     background-color: #8968cd;
 }
 
-.color-shade.violet {
+.color-swatch.violet {
     background-color: #9b24b4;
 }
 
-.color-shade.sunset-purple {
+.color-swatch.sunset-purple {
     background-color: #a865b5;
 }
 
-.color-shade.lavender {
+.color-swatch.lavender {
     background-color: #be9fdd;
 }
 
-.color-shade.heather {
+.color-swatch.heather {
     background-color: #988dba;
 }
 
-.color-shade.early-bird {
+.color-swatch.early-bird {
     background-color: #cea2fd;
 }
 
-.color-shade.periwinkle {
+.color-swatch.periwinkle {
     background-color: #8690f8;
 }
 
-.color-shade.cornflower-blue {
+.color-swatch.cornflower-blue {
     background-color: #649cff;
 }
 
-.color-shade.grape-jelly {
+.color-swatch.grape-jelly {
     background-color: #3d2e83;
 }
 
-.color-shade.royal-blue {
+.color-swatch.royal-blue {
     background-color: #3b62da;
 }
 
-.color-shade.dodger-blue {
+.color-swatch.dodger-blue {
     background-color: #3389f9;
 }
 
-.color-shade.sky-blue {
+.color-swatch.sky-blue {
     background-color: #82c7f2;
 }
 
-.color-shade.water-blue {
+.color-swatch.water-blue {
     background-color: #5bc2ff;
 }
 
-.color-shade.alice-blue {
+.color-swatch.alice-blue {
     background-color: #a0d4e0;
 }
 
-.color-shade.cambridge-blue {
+.color-swatch.cambridge-blue {
     background-color: #a8c4b2;
 }
 
-.color-shade.dark-turquoise {
+.color-swatch.dark-turquoise {
     background-color: #00a3b4;
 }
 
-.color-shade.turquoise {
+.color-swatch.turquoise {
     background-color: #4ebbb2;
 }
 
-.color-shade.green {
+.color-swatch.green {
     background-color: #47b471;
 }
 
-.color-shade.forest-green {
+.color-swatch.forest-green {
     background-color: #196251;
 }
 
-.color-shade.lime-green {
+.color-swatch.lime-green {
     background-color: #b9d24e;
     background-color: #b2cb00;
+    background-color: #b7d001;
 }
 
-.color-shade.yellow {
+.color-swatch.yellow {
     background-color: #f5d861;
     background-color: #f2d352;
+    background-color: #f1d044;
 }
 
-.color-shade.mustard {
+.color-swatch.mustard {
     background-color: #f2bb4e;
     background-color: #f4ba44;
     background-color: #f2b73f;
 } 
 
-.color-shade.orange {
+.color-swatch.orange {
     background-color: #fd9246;
     background-color: #fa8a3a;
     background-color: #ff863e;
@@ -214,13 +267,13 @@ h3.color {
     background-color: #f57d35;
 }
 
-.color-shade.vermilion {
+.color-swatch.vermilion {
     background-color: #e44135;
     background-color: #ef3224;
     background-color: #e9382b;
 }
 
-.color-shade.red {
+.color-swatch.red {
     background-color: #c00000;
     background-color: #cd0046;
     background-color: #c10948;
@@ -228,7 +281,7 @@ h3.color {
     background-color: #cc0047;
 }
 
-.color-shade.burgundy {
+.color-swatch.burgundy {
     background-color: #7b014c;
     background-color: #7b0133;
     background-color: #72002f;
@@ -240,19 +293,22 @@ h3.color {
     background-color: #7d0c3a;
 }
 
-.color-shade.brown {
+.color-swatch.brown {
     background-color: #583920;
     background-color: #75503a;
     background-color: #735043;
 }
 
-.color-shade.barbie-pink {
+.color-swatch.barbie-pink {
     background-color: #e12188;
     /* background-color: #e0298b; */
     background-color: #de2688;
+    background-color: #ea2d92;
+    background-color: #df2089;
+    background-color: #e0208a;
 }
 
-.color-shade.bubblegum {
+.color-swatch.bubblegum {
     background-color: #fd5da8;
     background-color: #f45fa5;
     background-color: #f665a9;
@@ -261,9 +317,10 @@ h3.color {
     background-color: #f85fa8;
     background-color: #f863aa;
     background-color: #ff70b4;
+    background-color: #ff69b6;
 }
 
-.color-shade.pink {
+.color-swatch.pink {
     background-color: #f699cd;
     background-color: #fd94ce;
     background-color: #ff97d1;
@@ -271,32 +328,44 @@ h3.color {
     background-color: #ffa2d5;
 }
 
-.color-shade.sakura {
+.color-swatch.sakura {
     background-color: #fec5e5;
+    background-color: #fcc9e6;
+    background-color: #f7c4e1;
+    background-color: #f6c4e0;
+
     /* background-color: #efb7d6; */
     /* background-color: #f4bddc; */
     /* background-color: #fdbde1; */
 }
 
-.color-shade.white {
+.color-swatch.white {
     background-color: #ffffff;
+    /* border: 1px solid #ecebeb; */
+    /* border: 1px solid #e4e4e4; */
 }
 
-.color-shade.grey {
+.color-swatch.grey {
     background-color: #7e8191;
     background-color: #7f808a;
 }
 
-.color-shade.black {
+.color-swatch.black {
     background-color: #1a1a1a
 }
 
-.color-shade.rainbow {
+.color-swatch.rainbow {
     background-color: #ffffff;
     background-image: linear-gradient(0deg, #c40041, #fd8346, #e4ca73, #96d0b7, #5bb3ff, #3b62da, #592a89);
 }
 
-/* ********** Horizontal Card ********** */
+/* ********** Square Color Card ********** */
+.square .color-title {
+    font-size: 10.5px;
+    /* font-size: 11px; */
+}
+
+/* ********** Horizontal Color Card ********** */
 .horizontal .color-card-group-container {
     display: flex;
     justify-content: center;
@@ -306,20 +375,47 @@ h3.color {
 
 .horizontal .color-card{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 250px;
 }
 
-.horizontal .color-card-title {
+.horizontal .color-card-body {
     max-width: 144px;
+    max-width: 160px;
+    padding-left: 7px;
 }
 
-.horizontal h3.color {
+.horizontal .color-title {
+    font-size: 11.5px;
+}
+
+.horizontal .color-title.ja {
     font-size: 12px;
 }
 
-.horizontal .color-shade {
+.horizontal .color-title.kr, .horizontal .color-title.zh {
+    font-size: 13px;
+}
+
+/* .horizontal .color-title.es {
+    font-size: 12.5px;
+} */
+
+.horizontal .color-swatch {
     height: 78px;
     width: 78px;
     border-radius: 8px;
+}
+
+.horizontal.md .color-swatch{
+    height: 100px;
+    height: 108px;
+    width: 70px;
+    /* height: 110px; */
+    /* width: 80px; */
+}
+
+.horizontal.text-left .color-card {
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
