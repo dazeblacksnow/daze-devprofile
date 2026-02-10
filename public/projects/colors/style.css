@@ -1,0 +1,390 @@
+.nav-group {
+    margin-top: 1rem;
+}
+
+.nav-group-desc {
+    margin-bottom: -.125rem;
+}
+
+.page-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    gap: 10px;
+    font-size: 15px;
+    margin: 1.375rem 0;
+    /* margin: 1.25rem 0;     */
+}
+
+.page-title-wrapper .page-title {
+    margin: 0;
+}
+
+.flag-inline {
+    font-size: 180%;
+    font-size: 185%;
+    /* font-size: 190%; */
+    display: inline-block;
+    /* padding-top: 4px; */
+    margin-bottom: -2px;
+}
+
+/* 
+.subtitle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    margin: .75rem 0;
+}
+
+.subtitle-wrapper .subtitle {
+    margin: 0;
+
+
+.flag-inline {
+    font-size: 140%;
+}
+} */
+
+.color-menu-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+.color-menu-list li {
+    display: inline-block;
+    margin: 0 3px 3px 0;
+}
+
+/* ********** Default Card ********** */
+.color-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin: 1rem 0 2rem !important;
+    margin: .5rem 0 2rem !important;
+}
+
+.color-card {
+    background-color: #e9eaf3;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    width: 116px;
+}
+
+.vertical .color-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.color-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px 0 5px;
+    padding: 0 4px;
+}
+
+.color-title {
+    color: #474747;
+    font-size: 11px;
+    line-height: 1.2;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.color-pronunciation {
+    color: #a7a9b2;
+    font-size: 9px;
+    margin: 2px 0 0;
+    word-break: break-all;
+}
+
+.color-definition {
+    color: rgb(141 143 157 / 50%);
+    font-size: 8px;
+    margin: 0;
+}
+
+.color-swatch {
+    background-color: #d2d6eb;
+    border-radius: 8px;
+    height: 106px;
+    width: 100%;
+}
+
+/* ********** Vertical Card - Text Top & Bottom ********** */
+.text-top .color-card-body {
+    margin: 3px 0 8px;
+}
+
+.text-bottom .color-card {
+    flex-direction: column-reverse;
+}
+
+.text-bottom .color-card-body {
+    margin: 8px 0 5px;
+}
+
+.text-top .color-title {
+    font-size: 11.5px;
+}
+
+.text-top .color-pronunciation {
+    margin: 2px 0 0;
+}
+
+.text-top .color-definition, 
+.text-bottom .color-definition {
+    margin: 6px 0 0;
+}
+
+.text-top .color-swatch, 
+.text-bottom .color-swatch  {
+    height: 78px;
+}
+
+/* ********** Vertical Card - Text Top & Bottom, No Title ********** */
+.text-top.no-title .color-card-body {
+    margin: 3px 0 6px;
+} 
+
+.text-top.no-title .color-definition, 
+.text-bottom.no-title .color-definition {
+    margin: 0;
+}
+
+.text-bottom.no-title .color-card-body {
+    margin: 6px 0 3px;
+}
+
+.no-title .color-swatch {
+    height: 60px;
+}
+
+/* ********** Color Swatches ********** */
+.color-swatch.deep-indigo {
+    background-color: #451c6c;
+}
+
+.color-swatch.rebecca-purple {
+    background-color: #663399;
+}
+
+.color-swatch.medium-purple {
+    background-color: #8968cd;
+}
+
+.color-swatch.violet {
+    background-color: #9b24b4;
+}
+
+.color-swatch.sunset-purple {
+    background-color: #a865b5;
+}
+
+.color-swatch.lavender {
+    background-color: #be9fdd;
+}
+
+.color-swatch.heather {
+    background-color: #988dba;
+}
+
+.color-swatch.early-bird {
+    background-color: #cea2fd;
+}
+
+.color-swatch.periwinkle {
+    background-color: #8690f8;
+}
+
+.color-swatch.cornflower-blue {
+    background-color: #649cff;
+}
+
+.color-swatch.grape-jelly {
+    background-color: #3d2e83;
+}
+
+.color-swatch.royal-blue {
+    background-color: #3b62da;
+}
+
+.color-swatch.dodger-blue {
+    background-color: #3389f9;
+}
+
+.color-swatch.sky-blue {
+    background-color: #82c7f2;
+}
+
+.color-swatch.water-blue {
+    background-color: #5bc2ff;
+}
+
+.color-swatch.alice-blue {
+    background-color: #a0d4e0;
+}
+
+.color-swatch.cambridge-blue {
+    background-color: #a8c4b2;
+}
+
+.color-swatch.dark-turquoise {
+    background-color: #00a3b4;
+}
+
+.color-swatch.turquoise {
+    background-color: #4ebbb2;
+}
+
+.color-swatch.green {
+    background-color: #47b471;
+}
+
+.color-swatch.forest-green {
+    background-color: #196251;
+}
+
+.color-swatch.lime-green {
+    background-color: #b7d001;
+}
+
+.color-swatch.yellow {
+    background-color: #f1d044;
+
+    background-color: #ffcf00;
+    background-color: #ffd419;
+    background-color: #f1cc2d;
+    background-color: #fad11d;
+    background-color: #f3cc25;
+}
+
+.color-swatch.mustard-yellow {
+    background-color: #ecb441;
+} 
+
+.color-swatch.orange {
+    background-color: #f57d35;
+    background-color: #f3752a;
+    /* background-color: #f47930; */
+}
+
+.color-swatch.vermilion {
+    background-color: #e9382b;
+}
+
+.color-swatch.red {
+    background-color: #cc0047;
+    background-color: #cc0024;
+}
+
+.color-swatch.burgundy {
+    background-color: #7d0c3a;
+}
+
+.color-swatch.brown {
+    background-color: #6f4b3e;
+}
+
+.color-swatch.barbie-pink {
+    background-color: #e0208a;
+}
+
+.color-swatch.bubblegum {
+    background-color: #ff69b6;
+}
+
+.color-swatch.pink {
+    background-color: #ffa2d5;
+}
+
+.color-swatch.sakura {
+    background-color: #f6c4e0;
+}
+
+.color-swatch.white {
+    background-color: #ffffff;
+}
+
+.color-swatch.grey {
+    background-color: #8f8f96;
+    background-color: #888888;
+    background-color: #888899;
+    background-color: #888898;
+}
+
+.color-swatch.black {
+    background-color: #1a1a1a;
+    background-color: #272727;
+    background-color: #242424;
+}
+
+.color-swatch.rainbow {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #c40041, #fd8346, #e4ca73, #96d0b7, #5bb3ff, #3b62da, #592a89);
+}
+
+/* ********** Square Color Card ********** */
+.square .color-title {
+    font-size: 10.5px;
+}
+
+/* ********** Horizontal Color Card ********** */
+.horizontal .color-card-group-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}   
+
+.horizontal .color-card{
+    display: flex;
+    width: 250px;
+}
+
+.horizontal .color-card-body {
+    max-width: 160px;
+    padding-left: 7px;
+}
+
+.horizontal .color-title {
+    font-size: 11.5px;
+}
+
+.ja .color-title {
+    font-size: 12px;
+}
+
+.ko .color-title, .zh .color-title {
+    font-size: 13px;
+}
+
+/* .it .color-title {
+    text-transform: none;
+} */
+
+.horizontal .color-swatch {
+    height: 78px;
+    width: 78px;
+    border-radius: 8px;
+}
+
+.horizontal.md .color-swatch{
+    height: 108px;
+    /* height: 110px; */
+    width: 70px;
+}
+
+.horizontal.text-left .color-card {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

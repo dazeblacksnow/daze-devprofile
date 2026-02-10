@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting A Project On A Remote GitHub Repository - daze</title>
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <link rel="icon" type="image/png" href="../../../../favicon.png">
+    <script src="https://kit.fontawesome.com/2da53748b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content-container">
+
+        <nav class="breadcrumb">
+            <ul class="breadcrumb-menu">
+                <li><a href="../github.html">Back</a> <span class="breadcrumb-menu-item-separator">|</span></li>
+                <li><a href="../../../../index.html"><i class="fa-solid fa-house"></i></a></li>
+            </ul>
+        </nav>
+        
+        <h1>GitHub</h1>  
+        <section>
+            <h3>Hosting a project on a remote GitHub repository</h3>
+            <p>Quick setup — if you’ve done this kind of thing before</p>
+            <p class="mb0"><b>HTTPS</b> <code>https://github.com/dazeblacksnow/devprofile.git</code></p>
+            <p class="mt0 mb0"><b>SSH</b> <code>git@github.com:dazeblacksnow/devprofile.git</code><span class="note-inline"><i class="fa-solid fa-note-sticky"></i></span></p>
+            <p class="note"><i class="fa-solid fa-note-sticky"></i> If you choose to go with SSH, you have to change remote origin URL below.</p>
+
+            <p>Create a new repository on the command line:</p>
+            <div class="codeblock">
+                <pre>
+                    <code>
+                        echo "# daze-devprofile" >> README.md
+                        git init
+                        git add README.md
+                        git commit -m "first commit"
+                        git branch -M main
+                        git remote add origin https://github.com/dazeblacksnow/daze-devprofile.git
+                        git push -u origin main
+                    </code>
+                </pre>
+            </div>
+
+            <p>Push an existing repository from the command line:</p>
+           <div class="codeblock">
+                <pre>
+                    <code>
+                        git remote add origin https://github.com/dazeblacksnow/devprofile.git
+                        git branch -M main
+                        git push -u origin main
+                    </code>
+                </pre>
+            </div>
+            
+        </section>
+
+        <footer>
+            <p>Copyright &copy; 2026 BLACKSNOW. All Rights Reserved.</p>
+            <p class="web-creator">Developed by <b></i>daze</b> (<a href="https://github.com/dazeblacksnow" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt icon"></i>dazeblacksnow</a>)</p>
+        </footer>
+        
+    </div>
+    </body>
+</html>
