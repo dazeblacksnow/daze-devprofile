@@ -13,7 +13,7 @@
 
     <!-- <a href="../../index.html" class="blacksnow-canvas-link"> -->
     <div class="content-container">
-        <a href="../../index.html" class="blacksnow-canvas-link">
+        <a href="../../index.html" class="blacksnow-canvas-link" id="blacksnow-close-link">
             <div class="blacksnow-canvas">
                 <h1 class="blacksnow-canvas-text-top">daze</h1>
                 <i class="blacksnow-canvas-icon fa-solid fa-star-of-life"></i>
@@ -28,6 +28,22 @@
         </a>
     </div>
     <!-- </a> -->
+
+    <script>
+        const closeLink = document.getElementById("blacksnow-close-link");
+        const fallbackHref = "../../index.html";
+
+        if (closeLink) {
+            closeLink.addEventListener("click", (event) => {
+                if (window.history.length > 1) {
+                    event.preventDefault();
+                    window.history.back();
+                } else {
+                    closeLink.href = fallbackHref;
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>

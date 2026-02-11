@@ -49,7 +49,7 @@
 
 .global-nav-menu {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     list-style-type: none;
 }
 

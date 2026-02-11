@@ -101,7 +101,7 @@ body:has(.blacksnow-canvas-link:hover) {
     margin-top: 26px;
 
     margin-top: 28px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     /* margin-top: 32px; */
     transition: all 0.6s ease;
     text-align: center;
@@ -123,6 +123,7 @@ body:has(.blacksnow-canvas-link:hover) {
     color: #2a2d39;
     cursor: pointer;
     transition: all 0.5s ease;
+    /* margin-top: 1.5rem; */
 }
 
 .blacksnow-canvas:hover .blacksnow-canvas-close {
