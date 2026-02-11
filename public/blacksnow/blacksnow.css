@@ -1,0 +1,134 @@
+/* ********** Blacksnow Canvas ********** */
+.blacksnow body {
+    /* background-color: #47ffbb;   */
+    background-color: #2a2d39;
+    /* background-color: #22242d; */
+    transition: all 0.3s ease-in-out;
+}
+
+body:has(.blacksnow-canvas-link:hover) {
+    background-color: #22242d;
+    background-color: #25272e;
+    background-color: #22242d;
+}
+
+/* .blacksnow body:hover {
+    background-color: #2a2d39;
+    background-color: #22242d;
+} */
+
+.blacksnow .content-container {
+    margin: 0 auto;
+    height: 100vh;
+    /* max-width: 100vw; */
+    margin-top: -2rem;
+}
+
+.blacksnow-canvas-link, .blacksnow-canvas-link:hover {
+    background-color: transparent;
+}
+
+.blacksnow-canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    height: 100%;
+}
+
+.blacksnow-canvas:hover {
+    cursor: pointer;
+}
+
+.blacksnow-canvas-icon {
+    color: #32364a;
+    color: #47ffbb;
+    color: #bbffe9;
+    /* color: white; */
+    font-size: 64px;
+    /* font-size: 80px; */
+    font-size: 48px;
+    font-size: 32px;
+    /* font-size: 24px; */
+    /* color: #b2ffe6; */
+    /* color: #bfffeb; *
+    /* color: #bbffe9; */
+    transition: all 0.6s ease;
+}
+
+.blacksnow-canvas:hover .blacksnow-canvas-icon {
+    color: #bbffe9;
+    color: #47ffbb;
+    transform: scale(1.2);
+    transform: scale(1.5);
+    transform: scale(1.75);
+    transform: scale(1.85);
+    /* transform: scale(2); */
+    rotate: calc(180deg);
+}
+
+.blacksnow-canvas-text-top {
+    color: #2a2d39;
+    /* color: white; */
+    margin-bottom: 26px;
+    margin-bottom: 28px;
+    font-size: 16px;
+    font-size: 20px;
+    font-size: 24px;
+    text-transform: lowercase;
+    transition: all 0.4s ease;
+}
+
+.blacksnow-canvas:hover .blacksnow-canvas-text-top {
+    color: white;
+    /* color: #bbffe9; */
+    /* color: #47ffbb; */
+}
+
+.blacksnow-canvas-text-bottom {
+    color: #bbffe9;
+    /* color: #47ffbb; */
+    color: #2a2d39;
+    /* color: #22242d; */
+    font-size: 24px;
+    font-size: 16px;
+    font-size: 12px;
+    font-size: 11px;
+    /* font-size: 10px; */
+    margin-top: 8px;
+    margin-top: 24px;
+    margin-top: 26px;
+
+    margin-top: 28px;
+    /* margin-top: 30px; */
+    /* margin-top: 32px; */
+    transition: all 0.6s ease;
+    text-align: center;
+}
+
+.blacksnow-canvas:hover .blacksnow-canvas-text-bottom {
+    color: #bbffe9;
+    color: #2a2d39;
+    /* color: #22242d; */
+    color: #47ffbb;
+    color: white;
+    /* color: #47ffbb; */
+    color: #bbffe9;
+}
+
+.blacksnow-canvas-close {
+    font-size: 16px;
+    font-size: 18px;
+    color: #2a2d39;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.blacksnow-canvas:hover .blacksnow-canvas-close {
+    color: rgb(255 255 255 / 35%);
+}
+
+.blacksnow-canvas:hover .blacksnow-canvas-close:hover {
+    color: rgb(255 255 255 / 70%);
+}

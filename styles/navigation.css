@@ -1,0 +1,159 @@
+
+/* *************** Global Nav *************** */
+.global-nav {
+    position: fixed;
+    top: 1.125rem;
+    max-width: 520px;
+    width: 100%;
+    background-color: #22242d;
+    border: 1.5px solid #47ffbb;
+    border-radius: 14px;
+}
+
+.global-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .125rem .9375rem .125rem .875rem;
+}
+
+.global-nav-logo a {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.global-nav-logo a:hover {
+    color: #47ffbb;
+    color: #dbdff3;
+}
+
+.global-nav-logo a:hover .global-nav-logo-img {
+    /* transform: rotate(5deg); */
+}
+
+.global-nav-logo-img {
+    width: 29px;
+    height: auto;
+}
+
+.web-title {
+    padding-bottom: 2px;
+}
+
+.global-nav-menu {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.global-nav-menu-item a {
+    background-color: transparent;
+    color: #c5c7d5;
+    letter-spacing: -0.125px;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+.global-nav-menu-item a:hover {
+    background-color: transparent;
+    color: #47ffbb;
+}
+
+.global-nav-menu-item a.active {
+    color: #47ffbb;
+    background-color: #47ffbb;;
+    color: #252832;
+}
+
+.global-nav-menu-item a.active:hover {
+    cursor: pointer;
+}
+
+/* *************** Breadcrumb *************** */
+.breadcrumb {
+    font-size: 9.5px;
+    margin-bottom: .875rem;
+}
+
+.breadcrumb-menu {
+    padding-inline-start: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.breadcrumb a {
+    background-color: transparent;
+    color: #757987;
+    /* letter-spacing: -0.1px; */
+}
+
+.breadcrumb a:hover {
+    color: #b2b5bb;
+    background-color: transparent;
+}
+
+.breadcrumb .current-page {
+    color: #999ba1;
+    cursor: default;
+}
+
+.breadcrumb .current-page:hover {
+    color: #999ba1;
+}
+
+.breadcrumb-menu-item-separator {
+    color: #5e6172;
+}
+
+/* *************** Nav Group *************** */
+.nav-group {
+    margin-top: 1rem;
+    margin-bottom: 1.75rem;
+}
+
+.nav-group-desc {
+    margin-bottom: -.125rem;
+}
+
+section.intro .page-title {
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+
+/* *************** nav-list-menu *************** */
+/* .nav-list-menu a {
+    color: #313651;
+    background-color: #47ffbb;
+    border-radius: 2px;
+    padding: 0 1px;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-list-menu a:hover {
+    color: #47ffbb;
+    background-color: #202128;
+}
+
+a.active {
+    background-color: #e4e6f4;
+}
+
+.nav-list-menu a.active:hover {
+    color: #313651;
+    cursor: default;
+} */
