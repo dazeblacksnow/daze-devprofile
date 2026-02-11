@@ -66,3 +66,16 @@ code {
 .mt0 {
     margin-top: 0;
 }
+
+.heading-inline-icon-right {
+    margin-left: 4px;
+}
+
+.inline-icon-right {
+    font-size: 90%;
+    margin-left: 2px;
+}
+
+/* .inline-icon-left {
+    margin-right: 2px;
+} */
