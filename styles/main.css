@@ -1,7 +1,8 @@
 @import url('navigation.css');
 @import url('utility.css');
-@import url('kittydaze.css');
+@import url('littlekittydaze.css');
 
+/* *************** Default Elements *************** */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -19,94 +20,6 @@ body {
     max-width: 520px;
 }
 
-section {
-    border-bottom: 2px inset #525867;
-    padding: 1.25rem 0 1.375rem;
-}
-
-section:first-of-type {
-    padding-top: 0;
-}
-
-section:last-of-type {
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
-section > *:first-child {
-    margin-top: 0;
-}
-
-/* section > *:last-child {
-    margin-bottom: 0;
-} */
-
-section > *:last-child,
-section > *:last-child > *:last-child,
-section > *:last-child > *:last-child > *:last-child {
-    margin-bottom: 0;
-}
-
-section > p:first-of-type {
-    margin-top: 0;
-}
-
-section.intro {
-    background-color: #2a2d39;
-    border-bottom: none;
-    border-radius: 36px;
-    margin-bottom: .75rem;
-    padding: .875rem 0 1.125rem;
-    text-align: center;
-}
-
-section.contact-details, section.my-hobbies {
-    padding-top: .25rem;
-}
-
-.home .section-title {
-    text-transform: uppercase;
-    letter-spacing: -0.125px;
-}
-
-.role-title {
-    color: #bfffeb;
-    display: block;
-    font-size: 13px;
-    font-weight: bold;
-    margin: .25rem 0 .75rem;
-}
-
-.dev-icon {
-    height: 90px;
-    display: block;
-    margin: auto;
-}
-
-.dev-slogan-box {
-    background-color: rgb(37 39 45 / 80%);
-    background-color: transparent;
-    border: 2px solid #4b5262;
-    border-radius: 13px;
-    display: inline-block;
-    margin: 1em 0 1.2em;
-    padding: 8px 16px;
-}
-
-.dev-slogan {
-    font-size: 11px;
-    font-weight: normal;
-    line-height: 1.25;
-    margin: 0;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.socials {
-    font-size: 14px;
-    padding: .25rem 0;
-}
-
 h1 {
     color: #47ffbb;
     font-size: 20px;
@@ -116,61 +29,9 @@ h1 {
     text-transform: capitalize;
 }
 
-.page-title {
-    text-align: center;
-}
-
-.page-title-extended-txt {
-    display: block;
-    font-size: 75%;
-    font-weight: normal;
-    margin-top: 4px;
-    padding-bottom: 2px;
-}
-
-
-.subtitle {
-    color: #b2ffe6;
-    font-size: 15px;
-    letter-spacing: -0.125px;
-    margin-bottom: .75rem;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.subtitle-extended-txt {
-    display: block;
-    font-size: 75%;
-    font-weight: normal;
-    margin-top: 4px;
-    padding-bottom: 2px;
-}
-
-.section-title {
-    color: #bfffeb;
-    font-size: 13px;
-    margin-bottom: .75rem;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.section-title.code {
-    text-transform: lowercase;
-}
-
 p {
     line-height: 1.2;
     margin: .75rem 0;
-}
-
-p, li, th, td {
-    /* color: #86ffd2;
-    color: #47ffbb;
-    color: #a1a5b9;
-    color: #b8bbc9;
-    color: #c2c5d2;
-    color: #cdd0dd; */
-    /* color: #d6dae8; */
 }
 
 th {
@@ -213,10 +74,139 @@ a.active:hover {
     cursor: default;
 }
 
+
+/* *************** Titles & Subtitles *************** */
+.page-title {
+    text-align: center;
+}
+
+.page-title-extended-txt {
+    display: block;
+    font-size: 75%;
+    font-weight: normal;
+    margin-top: 4px;
+    padding-bottom: 2px;
+}
+
+.subtitle {
+    color: #b2ffe6;
+    font-size: 15px;
+    letter-spacing: -0.125px;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subtitle-extended-txt {
+    display: block;
+    font-size: 75%;
+    font-weight: normal;
+    margin-top: 4px;
+    padding-bottom: 2px;
+}
+
+.section-title {
+    color: #bfffeb;
+    font-size: 13px;
+    margin-bottom: .75rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-title.code {
+    text-transform: lowercase;
+}
+
+
+/* *************** Section Base Rules *************** */
+section {
+    border-bottom: 2px inset #525867;
+    padding: 1.25rem 0 1.375rem;
+}
+
+section:first-of-type {
+    padding-top: 0;
+}
+
+section:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+section > *:first-child {
+    margin-top: 0;
+}
+
+section > *:last-child,
+section > *:last-child > *:last-child,
+section > *:last-child > *:last-child > *:last-child {
+    margin-bottom: 0;
+}
+
+section > p:first-of-type {
+    margin-top: 0;
+}
+
+section.contact-details, section.my-hobbies {
+    padding-top: .25rem;
+}
+
+section.daze-intro {
+    background-color: #2a2d39;
+    border-bottom: none;
+    border-radius: 36px;
+    margin-bottom: .75rem;
+    padding: .875rem 0 1.125rem;
+    text-align: center;
+}
+
+section.daze-intro .page-title {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+ .role-title {
+    color: #bfffeb;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: .25rem 0 .75rem;
+}
+
+.dev-icon {
+    height: 90px;
+    display: block;
+    margin: auto;
+}
+
+.dev-slogan-box {
+    background-color: rgb(37 39 45 / 80%);
+    background-color: transparent;
+    border: 2px solid #4b5262;
+    border-radius: 13px;
+    display: inline-block;
+    margin: 1em 0 1.2em;
+    padding: 8px 16px;
+}
+
+.dev-slogan {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.25;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.socials {
+    font-size: 14px;
+    padding: .25rem 0;
+}
+
 a.social-link {
     border: 1px solid #47ffbb;
-    border: 1px solid #47ffbb;
-    border: 1px solid #28ffbb;
     border-radius: 5px;
     padding: 1px;
 }
@@ -225,12 +215,13 @@ a.social-link:hover {
     background-color: transparent;
 }
 
-.nav-list-menu li {
-    margin-bottom: 2px;
+.home .section-title {
+    text-transform: uppercase;
+    letter-spacing: -0.125px;
 }
 
 
-
+/* *************** Work Experiences *************** */
 .work-exp-title {
     margin-bottom: 0;
     text-align: left;
@@ -271,7 +262,7 @@ table {
 }
 
 
-/* ********** Contact Details Section ********** */
+/* *************** Contact Me *************** */
 .contact-details {
     border-bottom: none;
     padding-bottom: 1.5rem;
@@ -282,11 +273,7 @@ table {
 }
 
 p.contact-name {
-    color: #9bffda;
-    color: #a7ffe2;
-    color: #b2ffe6;
     color: #bfffeb;
-    font-size: 1.15em;
     font-size: 13px;
     font-weight: bold;
     margin-bottom: .5rem;
@@ -294,64 +281,37 @@ p.contact-name {
 }
 
 
-/* ********** Footer Section ********** */
+/* *************** Footer *************** */
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #47ffbb;
-    border: 1px solid #47ffcc;
-    border: 2px solid #727689;
-    border: 2px solid rgba(114, 118, 137, 0.85);
-    border: 2px solid #727689;
-    border: 2px solid #53576e;
-    border: 2px solid #575b6b;
 
-    border: 2px solid #585b6d;
-
-    border: 2px solid #585b6d;
-    border: 2px solid #5c5e6e;
-    border: 2px solid #6a6c7b;
-    border: 2px solid #626473;
-
-    /* border: 1.5px solid #727689; */
-    border-radius: 12px;
-    font-size: 9.5px;
-    margin: 1.75rem 0 1.125rem;
-    padding: .5rem 0;
-
-    border: none;
-    margin: 0;
-    margin-top: 1.75rem;
-    padding: 0;
-    color: #697080;
-    color: #788090;
-    color: #7e8797;
     color: #818997;
+    font-size: 9.5px;
+    margin: 1.75rem 0 0;
+    padding: 0;
 }
 
 footer p {
     margin: 1px 0;
 }
 
-.daze-to-blacksnow-hero-screen-link {
+.web-creator .icon {
+    margin-right: 1px;
+}
+
+.daze-to-blacksnow-black-screen-link {
     background-color: transparent;
-    color: #47ffbb;
     color: #a7afbd;
     font-size: 105%;
     font-weight: bold;
     margin-right: 3px;
-    /* text-decoration: underline wavy #47ffbb; */
 }
 
-.daze-to-blacksnow-hero-screen-link:hover {
+.daze-to-blacksnow-black-screen-link:hover {
     background-color: transparent;
     color: #b4bcca;
     color: #cad2e0;
     text-decoration: underline wavy #47ffbb;
-    /* text-decoration: none; */
-}
-
-.web-creator .icon {
-    margin-right: 1px;
 }

@@ -1,13 +1,12 @@
-
 /* *************** Global Nav *************** */
 .global-nav {
+    background-color: #22242d;
+    border: 1.5px solid #47ffbb;
+    border-radius: 14px;
     position: fixed;
     top: 1.125rem;
     max-width: 520px;
     width: 100%;
-    background-color: #22242d;
-    border: 1.5px solid #47ffbb;
-    border-radius: 14px;
 }
 
 .global-nav-container {
@@ -18,19 +17,18 @@
 }
 
 .global-nav-logo a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
     background-color: transparent;
     color: white;
     font-size: 16px;
     font-weight: bold;
     line-height: 1;
-
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .global-nav-logo a:hover {
-    color: #47ffbb;
     color: #dbdff3;
 }
 
@@ -39,8 +37,8 @@
 }
 
 .global-nav-logo-img {
-    width: 29px;
     height: auto;
+    width: 28px;
 }
 
 .web-title {
@@ -55,10 +53,10 @@
 
 .global-nav-menu-item a {
     background-color: transparent;
+    border-radius: 3px;
     color: #c5c7d5;
     letter-spacing: -0.125px;
     padding: 1px 3px;
-    border-radius: 3px;
 }
 
 .global-nav-menu-item a:hover {
@@ -67,7 +65,6 @@
 }
 
 .global-nav-menu-item a.active {
-    color: #47ffbb;
     background-color: #47ffbb;;
     color: #252832;
 }
@@ -75,6 +72,17 @@
 .global-nav-menu-item a.active:hover {
     cursor: pointer;
 }
+
+.blacksnow-icon {
+    /* color: #47ffbb; */
+    font-size: 10px;
+}
+
+.blacksnow-icon:hover {
+    /* color: #47ffbb; */
+    /* color: #bfffeb; */
+}
+
 
 /* *************** Breadcrumb *************** */
 .breadcrumb {
@@ -96,12 +104,11 @@
 .breadcrumb a {
     background-color: transparent;
     color: #757987;
-    /* letter-spacing: -0.1px; */
 }
 
 .breadcrumb a:hover {
-    color: #b2b5bb;
     background-color: transparent;
+    color: #b2b5bb;
 }
 
 .breadcrumb .current-page {
@@ -117,43 +124,19 @@
     color: #5e6172;
 }
 
+
 /* *************** Nav Group *************** */
 .nav-group {
+    margin-bottom: 1.875rem;
     margin-top: 1rem;
-    margin-bottom: 1.75rem;
 }
 
 .nav-group-desc {
     margin-bottom: -.125rem;
 }
 
-section.intro .page-title {
-    font-size: 2.5rem;
-    margin: 0;
-    text-transform: lowercase;
-}
-
 
 /* *************** nav-list-menu *************** */
-/* .nav-list-menu a {
-    color: #313651;
-    background-color: #47ffbb;
-    border-radius: 2px;
-    padding: 0 1px;
-    text-decoration: none;
-    transition: all 0.1s ease-in-out;
+.nav-list-menu li {
+    margin-bottom: 2px;
 }
-
-.nav-list-menu a:hover {
-    color: #47ffbb;
-    background-color: #202128;
-}
-
-a.active {
-    background-color: #e4e6f4;
-}
-
-.nav-list-menu a.active:hover {
-    color: #313651;
-    cursor: default;
-} */
