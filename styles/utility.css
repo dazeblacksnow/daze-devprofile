@@ -71,30 +71,30 @@ code {
 .mb0 {
     margin-bottom: 0;
 }
-
-.mt0 {
-    margin-top: 0;
-}
-
 .mb0-125 {
     margin-bottom: 0.125rem;
 }
-
-.mt0-125 {
-    margin-top: 0.125rem;
-}
-
 .mb0-25 {
     margin-bottom: 0.25rem;
 }
 
+.mt0 {
+    margin-top: 0;
+}
+.mt0-125 {
+    margin-top: 0.125rem;
+}
 .mt0-25 {
     margin-top: 0.25rem;
 }
-
 .mt1-25 {
     margin-top: 1.25rem;
 }
+
+.center {
+    text-align: center;
+}
+
 
 /* ******** Temporary Styles (To be removed) ******** */
 .project-template-link {
