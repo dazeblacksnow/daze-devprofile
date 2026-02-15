@@ -76,6 +76,7 @@ body:has(.blacksnow-canvas-link:hover) {
     font-size: 16px;
     font-size: 20px;
     font-size: 24px;
+    font-size: 22px;
     /* text-transform: lowercase; */
     transition: all 0.4s ease;
 }

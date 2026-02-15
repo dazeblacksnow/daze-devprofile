@@ -3,6 +3,7 @@
     background-color: #22242d;
     border: 1.5px solid #47ffbb;
     border-radius: 14px;
+    border-radius: 12px;
     position: fixed;
     top: 1.125rem;
     max-width: 520px;
@@ -15,6 +16,7 @@
     align-items: center;
     padding: .125rem .9375rem .125rem .875rem;
     padding: 1px .9375rem 1px .875rem;
+    padding: 0 .9375rem 0 .875rem;
 }
 
 .global-nav-logo a {
@@ -27,6 +29,7 @@
     color: white;
     font-size: 16px;
     font-size: 15.5px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1;
 }
@@ -36,18 +39,20 @@
 }
 
 .global-nav-logo a:hover .global-nav-logo-img {
-    /* transform: rotate(5deg); */
+    /* transform: rotate(-5deg); */
 }
 
 .global-nav-logo-img {
     height: auto;
     width: 29px;
     width: 28px;
+    width: 27px;
+    /* transition: all 0.3s ease; */
 }
 
 .web-title {
-    padding-bottom: 2px;
-    padding-bottom: 1px;
+    /* padding-bottom: 2px; */
+    /* padding-bottom: 1px; */
 }
 
 .global-nav-menu {
@@ -96,6 +101,8 @@
 .blacksnow-icon:hover {
     /* color: #47ffbb; */
     /* color: #bfffeb; */
+    /* color: #b6ffe4; */
+    /* color: #bbfde4; */
 }
 
 
