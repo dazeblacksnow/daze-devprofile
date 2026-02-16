@@ -64,6 +64,7 @@ body:has(.blacksnow-canvas-link:hover) {
     transform: scale(1.5);
     transform: scale(1.75);
     transform: scale(1.85);
+    /* transform: scale(1.8); */
     /* transform: scale(2); */
     rotate: calc(180deg);
 }
@@ -77,6 +78,8 @@ body:has(.blacksnow-canvas-link:hover) {
     font-size: 20px;
     font-size: 24px;
     font-size: 22px;
+    font-size: 34px;
+    margin-bottom: 26px;
     /* text-transform: lowercase; */
     transition: all 0.4s ease;
 }
@@ -116,6 +119,10 @@ body:has(.blacksnow-canvas-link:hover) {
     color: white;
     /* color: #47ffbb; */
     color: #bbffe9;
+
+    color: #bfffeb;
+    color: #b6ffe4;
+    color: #bbfde4;
 }
 
 .blacksnow-canvas-close {
